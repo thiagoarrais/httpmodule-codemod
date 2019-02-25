@@ -8,7 +8,7 @@ Status: experimental
 
 ```bash
 $ npm install -g jscodeshift
-$ jscodeshift -t https://raw.githubusercontent.com/thiagoarrais/httpmodule-codemod/master/transforms/httpmodule.js
+$ jscodeshift -t https://raw.githubusercontent.com/thiagoarrais/httpmodule-codemod/master/transforms/httpmodule.js \
   --extensions=ts \
   --parser=ts \
   meu-projeto-angular/

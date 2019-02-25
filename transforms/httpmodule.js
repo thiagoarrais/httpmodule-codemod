@@ -80,4 +80,4 @@ const transform = (fileInfo, api, options) => {
   return afterReplacingJsonMappings;
 };
 
-export default transform;
+module.exports = transform;
